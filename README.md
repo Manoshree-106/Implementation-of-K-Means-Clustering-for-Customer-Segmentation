@@ -8,17 +8,8 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Get the independent variable X and dependent variable Y.
-2. Calculate the mean of the X -values and the mean of the Y -values.
-3. Find the slope m of the line of best fit using the formula.
-  <img width="350" height="192" alt="Screenshot 2026-05-11 093010" src="https://github.com/user-attachments/assets/5fb63f44-9a7f-45ae-b101-a63ae350be21" />
+Start the program:Import the required libraries and load the customer dataset. 2.Preprocess the data:Select important features such as Age, Income, and Spending Score, and handle missing values if any. 3.Choose the number of clusters (K):Decide the number of customer groups using the Elbow Method or by assumption. 4.Apply the K-Means algorithm:Initialize cluster centroids and assign each customer to the nearest centroid. Update centroids repeatedly until the clusters become stable. 5.Visualize and analyze the clusters:Display the clustered customer groups using graphs and interpret customer segments for business decision-making. 6.Stop the program
 
-4. commpute the y -intercept of the line by using the formula:
-<img width="312" height="62" alt="Screenshot 2026-05-11 093018" src="https://github.com/user-attachments/assets/50a460be-e8f7-4f04-a7a4-3b2c9658b4dd" />
-
-
-5.Use the slope m and the y -intercept to form the equation of the line. 
-6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
 
 ## Program:
 ```
